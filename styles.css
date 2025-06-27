@@ -197,3 +197,16 @@ button {
     font-size: 24px;
     margin-bottom: 4px;
 }
+
+.footer .column {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 0 8px;
+}
