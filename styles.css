@@ -7,10 +7,25 @@ body {
     margin: 0;
 }
 
+.header, .hero, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8
+}
+
+.info, .action {
+    background-color: white;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}   
+
 button {
     font-size: 18px;
     font-weight: bold;
-    color: #E5E7E8;
+    color: #E5E7EB;
     background-color: #3882F6;
     border-radius: 8px;
     padding: 8px 12px;
@@ -36,11 +51,6 @@ button {
 }
 
 
-.header, .hero, .footer {
-    background-color: #1F2937;
-    color: #F9FAF8
-}
-
 .logo {
     font-size: 24px;
     font-weight: 700;
@@ -48,7 +58,7 @@ button {
 
 .header a {
     text-decoration: none;
-    color: #E5E7E8;
+    color: #E5E7EB;
     font-size: 18px;
     padding: 0 8px;
 }
@@ -75,7 +85,7 @@ button {
 
 .hero .secondary {
     font-size: 18px;
-    color: #E5E7E8;
+    color: #E5E7EB;
     padding-top: 8px;
     padding-bottom: 16px;
 }
@@ -84,7 +94,7 @@ button {
     flex: 1;
     aspect-ratio: 2/1;
     background-color: grey;
-    color: #E5E7E8;
+    color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +115,6 @@ button {
 .info .title {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
     padding-bottom: 50px;
 }
 
@@ -130,7 +139,29 @@ button {
 
 .card .secondary {
     text-align: center;
-    color: #1F2937;
     font-size: 16px;
     padding-top: 8px;
+}
+
+.quote .content {
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .primary {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    flex: 0 1 800px;
+}
+
+.quote .citation {
+    font-weight: bolder;
+    font-size: 24px;
+    justify-self: right;
+    font-style: normal;
+    margin: 0;
 }
