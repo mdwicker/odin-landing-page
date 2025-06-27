@@ -46,7 +46,7 @@ button {
 .header .column {
     display: flex;
     justify-content: space-between;
-    padding-top: 16px;
+    padding-top: 24px;
     padding-bottom: 16px;
 }
 
@@ -173,7 +173,7 @@ button {
 }
 
 .action .box {
-    height: 100px;
+    height: 125px;
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
@@ -184,8 +184,6 @@ button {
     padding: 8px;
     gap: 8px;
 }
-
-
 
 .action button {
     border-color: #F9FAF8;
@@ -199,7 +197,7 @@ button {
 }
 
 .footer .column {
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
